@@ -8,18 +8,18 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="bg-white">
+<body id="top" class="bg-white">
 
   <!-- Mobile navbar for small screens -->
   <nav class="navbar navbar-dark bg-secondary d-md-none">
     <div class="container-fluid">
       <span class="navbar-brand mb-0 h1">Andrew Wilkinson</span>
       <div class="d-flex flex-wrap gap-2">
-        <a class="btn btn-sm btn-outline-light" href="#about">About</a>
-        <a class="btn btn-sm btn-outline-light" href="#experience">Experience</a>
-        <a class="btn btn-sm btn-outline-light" href="#education">Education</a>
-        <a class="btn btn-sm btn-outline-light" href="#skills">Skills</a>
+        <a class="btn btn-sm btn-outline-light" href="#profile">Profile</a>
         <a class="btn btn-sm btn-outline-light" href="#expertise">Expertise</a>
+        <a class="btn btn-sm btn-outline-light" href="#skills">Skills</a>
+        <a class="btn btn-sm btn-outline-light" href="#experience">Career</a>
+        <a class="btn btn-sm btn-outline-light" href="#education">Education</a>
       </div>
     </div>
   </nav>
@@ -38,19 +38,19 @@
 
       <ul class="nav flex-column w-100 text-center">
         <li class="nav-item mb-2">
-          <a class="nav-link text-white fw-semibold py-1" href="#about">ABOUT</a>
+          <a class="nav-link text-white fw-semibold py-1" href="#profile">Profile</a>
         </li>
         <li class="nav-item mb-2">
-          <a class="nav-link text-white fw-semibold py-1" href="#experience">EXPERIENCE</a>
+          <a class="nav-link text-white fw-semibold py-1" href="#expertise">Expertise</a>
         </li>
         <li class="nav-item mb-2">
-          <a class="nav-link text-white fw-semibold py-1" href="#education">EDUCATION</a>
+          <a class="nav-link text-white fw-semibold py-1" href="#skills">Skills</a>
         </li>
         <li class="nav-item mb-2">
-          <a class="nav-link text-white fw-semibold py-1" href="#skills">SKILLS</a>
+          <a class="nav-link text-white fw-semibold py-1" href="#experience">Career</a>
         </li>
         <li class="nav-item mb-2">
-          <a class="nav-link text-white fw-semibold py-1" href="#expertise">EXPERTISE</a>
+          <a class="nav-link text-white fw-semibold py-1" href="#education">Education</a>
         </li>
       </ul>
     </nav>
@@ -75,8 +75,8 @@
 
       <hr class="mb-4">
 
-      <!-- Profile/About section -->
-      <section class="card mb-4 shadow-sm" id="about">
+      <!-- Profile section -->
+      <section class="card mb-4 shadow-sm" id="profile">
         <div class="card-body">
           <h3 class="h5 fw-bold mb-3">Profile</h3>
           <p>
@@ -150,9 +150,9 @@
         </div>
       </section>
 
-      <!-- Experience section -->
+      <!-- Career History section -->
       <section class="mb-5" id="experience">
-        <h3 class="h5 fw-bold mb-3">Experience</h3>
+        <h3 class="h5 fw-bold mb-3">Career History</h3>
 
         <div class="card mb-4 shadow-sm">
           <div class="card-body">
@@ -428,6 +428,11 @@
 
     </main>
   </div>
+
+  <!-- Floating Back to Top button for mobile -->
+  <a href="#top" class="btn btn-secondary position-fixed bottom-0 end-0 m-4 d-md-none" style="z-index:1050;">
+    ↑ Top
+  </a>
 
   <!-- Footer with dynamic year -->
   <footer class="bg-dark text-white text-center py-3">
